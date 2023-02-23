@@ -1,0 +1,161 @@
+@charset "UTF-8";
+body {
+    color: #1A1A1A;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-image: url(bokeh.jpg);
+    background-size: cover;  
+		
+}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(header.jpg);
+	background-repeat: no-repeat;
+}
+
+main {
+    width: 598px;
+    height: 3530px;
+    float: left;
+    clear: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;	
+}
+
+/*Make sure you don't break the float again ok?*/
+aside {
+    width: 150px;
+    height: 3550px;
+    background-color: #646464;
+    float: left;
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    margin-right: 40px;
+	font-family: 'neonoir', sans-serif;
+	font-size: 18pt;
+}
+
+h1 {
+    color: #6DE7FF;
+    font-family: "politica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+
+p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Make sure both main and aside are floating otherwise it's going to look weird again. Also, subtract the width by 150px.*/
+
+/*Don't float this, clear the float. Text is formatted really weirdly if this is floated.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #646464;
+    clear: both;
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+article {
+    margin-bottom: 50px;
+	font-family: "my font";
+}
+
+nav {
+    width: 768px;
+    height: 50px;
+}
+
+#container nav li{
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0px 60px 0px 0px;
+	width: 60px;
+	font-family: 'neonoir' sans-serif;
+	font-size: 18pt;
+}
+
+#container nav ul {
+    margin: auto;
+    width: 500px;
+}
+
+nav a:link {
+    color: #65EBFB;
+    text-decoration: none;
+	padding: 6px;
+
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #5F2575;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #65ebfb;
+	padding: 6px;
+	border-radius: 12px;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: politica, sans-serif;
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #65ECFC;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
